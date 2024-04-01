@@ -51,8 +51,8 @@ public class Program {
 			}
 			
 			else {
-				Reservation updated = new Reservation(roomNumber, checkIn, checkOut);
-				System.out.println(updated);
+				reservation.updateDates(checkIn, checkOut);
+				System.out.println("Reservation: " + reservation);
 			}
 			
 		}
